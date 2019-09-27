@@ -89,6 +89,7 @@ Happy Coding! :D
 ## 下个版本开发计划
 * 可配置默认存储
 * ts支持
+* 添加会话存储
 
 # Thanks
 [tiny-cookie](https://www.npmjs.com/package/tiny-cookie "tiny-cookie") 
