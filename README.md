@@ -1,0 +1,2 @@
+# intelligent_cookie
+web智能缓存插件, 自动判断LocalStorage,cookie是否可用, 并且为LocalStorage拓展实现cookie的参数
