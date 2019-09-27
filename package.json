@@ -1,7 +1,7 @@
 {
   "name": "vue-intelligent-cookie",
-  "version": "1.0.1",
-  "description": "A Vue.js plugin for intelligent manipulating cache",
+  "version": "1.0.2",
+  "description": "[vue智能数据持久化插件] A Vue.js plugin for intelligent manipulating cache",
   "author": "Veyhunk <Veyhunk@qq.com>",
   "private": false,
   "main": "dist/min.js",
