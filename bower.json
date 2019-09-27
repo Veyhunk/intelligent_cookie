@@ -1,0 +1,19 @@
+{
+  "name": "vue-intelligent-cookie",
+  "description": "A Vue.js plugin for intelligent manipulating cache",
+  "main": "dist/min.js",
+  "authors": [
+    "Veyhunk <Veyhunk@qq.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "VueJS",
+    "Cookie"
+  ],
+  "homepage": "https://github.com/Veyhunk/intelligent_cookie.git",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ]
+}
