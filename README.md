@@ -13,6 +13,7 @@
 ## 特别功能
 * 可直接存储对象；
 * 为LocalStorage拓展实现cookie的参数机制
+* 当前采用的运行机制可以控制台查看window.IntelligentCookie.storageMode
 
 ## Installation
 
