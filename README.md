@@ -6,6 +6,7 @@
 * LocalStorage、cookie均不可用时，使用内置数据存储方案
 
 ## 运行原理
+* 项目基于高人气项目[tiny-cookie](https://www.npmjs.com/package/tiny-cookie "tiny-cookie"),[vue-cookie](https://www.npmjs.com/package/vue-cookie "vue-cookie"),[localstorage-cookie](https://www.npmjs.com/package/localstorage-cookie "localstorage-cookie")重构开发
 * 初始化前，判断LocalStorage、cookie的可用性，默认优先使用localStorage，再尝试cookie
 * 若两者都不可用，则将缓存保存在运行实例中，保证前端程序的正确运行
 
@@ -18,6 +19,7 @@
 Install through npm
 
 ``` bash
+
 npm install vue-intelligent-cookie --save
 
 ```
@@ -25,13 +27,17 @@ npm install vue-intelligent-cookie --save
 Include in ```<body>``` after loading Vue and it will automatically hook into Vue
 
 ``` html
-<script src="/node_modules/vue-intelligent-cookie/build/vue-intelligent-cookie.js'"></script>
+
+<script src="/node_modules/vue-intelligent-cookie/dist/min.js'"></script>
+or
+<script src="/node_modules/vue-intelligent-cookie/src/vue-intelligent-cookie.js'"></script>
 
  ```
 
 Or do it the cool way and load it in your ```main.js/app.js```
 
 ``` javascript
+
 // Require dependencies
 var Vue = require('vue');
 var IntelligentCookie = require('vue-intelligent-cookie');
@@ -45,6 +51,7 @@ The plugin is available through ```this.$cookie``` in components or ```Vue.cooki
 
 ###### Example
 ``` javascript
+
 // From some method in one of your Vue components
 this.$cookie.set('test', 'Hello world!', 1);
 // This will set a cookie with the name 'test' and the value 'Hello world!' that expires in one day
