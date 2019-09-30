@@ -247,7 +247,10 @@ const _localStorage = function () {
 }
 
 let IntelligentCookie = new _localStorage();
-
+if (window && window.Vue) {
+    window.IntelligentCookie = IntelligentCookie;
+    Vue.use(IntelligentCookie);
+}
 // if (typeof exports == "object") {
 //     module.exports = IntelligentCookie;
 // } else if (typeof define == "function" && define.amd) {
